@@ -1,0 +1,267 @@
+# Tested on Deeptest release 1.12.0
+cbmcArguments:
+  java-generate-no-comments: true
+  do-not-test-methods-with-access: [ private ]
+  cover-function-only: false
+  string-printable: true
+units:
+  # Target Coverage: Unknown %
+  - target:
+    - dir: jme3-core/build/classes
+      file: java/main/com/jme3/math/FastMath.class
+      sourceDir: jme3-core/src/main
+      sourceFile: java/com/jme3/math/FastMath.java
+  # Target Coverage: Unknown %
+  - target:
+    - dir: jme3-core/out/production/classes
+      file: com/jme3/math/FastMath.class
+      sourceDir: jme3-core/src/main/java
+      sourceFile: com/jme3/math/FastMath.java
+  # Target Coverage: Unknown %
+  - target:
+    - dir: jme3-core/build/classes
+      file: java/main/com/jme3/math/MathUtils.class
+      sourceDir: jme3-core/src/main
+      sourceFile: java/com/jme3/math/MathUtils.java
+    # Child of MathUtils.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/build/classes
+      file: java/main/com/jme3/renderer/Camera.class
+      sourceDir: jme3-core/src/main
+      sourceFile: java/com/jme3/renderer/Camera.java
+    # Child of MathUtils.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/out/production/classes
+      file: com/jme3/renderer/Camera.class
+      sourceDir: jme3-core/src/main/java
+      sourceFile: com/jme3/renderer/Camera.java
+    # Child of MathUtils.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/build/classes
+      file: java/main/com/jme3/util/TempVars.class
+      sourceDir: jme3-core/src/main
+      sourceFile: java/com/jme3/util/TempVars.java
+    # Child of MathUtils.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/out/production/classes
+      file: com/jme3/util/TempVars.class
+      sourceDir: jme3-core/src/main/java
+      sourceFile: com/jme3/util/TempVars.java
+  # Target Coverage: Unknown %
+  - target:
+    - dir: jme3-core/out/production/classes
+      file: com/jme3/math/MathUtils.class
+      sourceDir: jme3-core/src/main/java
+      sourceFile: com/jme3/math/MathUtils.java
+  # Target Coverage: Unknown %
+  - target:
+    - dir: jme3-core/build/classes
+      file: java/main/com/jme3/math/Eigen3f.class
+      sourceDir: jme3-core/src/main
+      sourceFile: java/com/jme3/math/Eigen3f.java
+  # Target Coverage: Unknown %
+  - target:
+    - dir: jme3-core/out/production/classes
+      file: com/jme3/math/Eigen3f.class
+      sourceDir: jme3-core/src/main/java
+      sourceFile: com/jme3/math/Eigen3f.java
+  # Target Coverage: Unknown %
+  - target:
+    - dir: jme3-core/build/classes
+      file: java/main/com/jme3/math/CurveAndSurfaceMath.class
+      sourceDir: jme3-core/src/main
+      sourceFile: java/com/jme3/math/CurveAndSurfaceMath.java
+  # Target Coverage: Unknown %
+  - target:
+    - dir: jme3-core/out/production/classes
+      file: com/jme3/math/CurveAndSurfaceMath.class
+      sourceDir: jme3-core/src/main/java
+      sourceFile: com/jme3/math/CurveAndSurfaceMath.java
+  # Target Coverage: Unknown %
+  - target:
+    - dir: jme3-core/build/classes
+      file: java/main/com/jme3/texture/plugins/HDRLoader.class
+      sourceDir: jme3-core/src/plugins
+      sourceFile: java/com/jme3/texture/plugins/HDRLoader.java
+    # Child of HDRLoader.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/build/classes
+      file: java/main/com/jme3/asset/AssetInfo.class
+      sourceDir: jme3-core/src/main
+      sourceFile: java/com/jme3/asset/AssetInfo.java
+    # Child of HDRLoader.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/out/production/classes
+      file: com/jme3/asset/AssetInfo.class
+      sourceDir: jme3-core/src/main/java
+      sourceFile: com/jme3/asset/AssetInfo.java
+    # Child of HDRLoader.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/build/classes
+      file: java/main/com/jme3/asset/AssetLoader.class
+      sourceDir: jme3-core/src/main
+      sourceFile: java/com/jme3/asset/AssetLoader.java
+    # Child of HDRLoader.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/out/production/classes
+      file: com/jme3/asset/AssetLoader.class
+      sourceDir: jme3-core/src/main/java
+      sourceFile: com/jme3/asset/AssetLoader.java
+    # Child of HDRLoader.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/build/classes
+      file: java/main/com/jme3/asset/TextureKey.class
+      sourceDir: jme3-core/src/main
+      sourceFile: java/com/jme3/asset/TextureKey.java
+    # Child of HDRLoader.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/out/production/classes
+      file: com/jme3/asset/TextureKey.class
+      sourceDir: jme3-core/src/main/java
+      sourceFile: com/jme3/asset/TextureKey.java
+    # Child of HDRLoader.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/build/classes
+      file: java/main/com/jme3/math/FastMath.class
+      sourceDir: jme3-core/src/main
+      sourceFile: java/com/jme3/math/FastMath.java
+    # Child of HDRLoader.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/out/production/classes
+      file: com/jme3/math/FastMath.class
+      sourceDir: jme3-core/src/main/java
+      sourceFile: com/jme3/math/FastMath.java
+    # Child of HDRLoader.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/build/classes
+      file: java/main/com/jme3/texture/Image.class
+      sourceDir: jme3-core/src/main
+      sourceFile: java/com/jme3/texture/Image.java
+    # Child of HDRLoader.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/out/production/classes
+      file: com/jme3/texture/Image.class
+      sourceDir: jme3-core/src/main/java
+      sourceFile: com/jme3/texture/Image.java
+    # Child of HDRLoader.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/build/classes
+      file: java/main/com/jme3/texture/image/ColorSpace.class
+      sourceDir: jme3-core/src/main
+      sourceFile: java/com/jme3/texture/image/ColorSpace.java
+    # Child of HDRLoader.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/out/production/classes
+      file: com/jme3/texture/image/ColorSpace.class
+      sourceDir: jme3-core/src/main/java
+      sourceFile: com/jme3/texture/image/ColorSpace.java
+    # Child of HDRLoader.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/build/classes
+      file: java/main/com/jme3/util/BufferUtils.class
+      sourceDir: jme3-core/src/main
+      sourceFile: java/com/jme3/util/BufferUtils.java
+    # Child of HDRLoader.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/out/production/classes
+      file: com/jme3/util/BufferUtils.class
+      sourceDir: jme3-core/src/main/java
+      sourceFile: com/jme3/util/BufferUtils.java
+  # Target Coverage: Unknown %
+  - target:
+    - dir: jme3-core/out/production/classes
+      file: com/jme3/texture/plugins/HDRLoader.class
+      sourceDir: jme3-core/src/plugins/java
+      sourceFile: com/jme3/texture/plugins/HDRLoader.java
+phases:
+-
+  timeout: 60
+  cbmcArguments:
+    max-nondet-array-length: 10
+    unwind: 1
+    string-non-empty: true
+    java-assume-inputs-non-null: true
+-
+  timeout: 60
+  cbmcArguments:
+    classpath: '/tools/cbmc/models-simple-overlay.jar:/tools/cbmc/models.jar:.'
+    max-nondet-array-length: 10
+    unwind: 1
+-
+  timeout: 60
+  cbmcArguments:
+    classpath: '/tools/cbmc/models-simple-overlay.jar:/tools/cbmc/models.jar:.'
+    max-nondet-array-length: 20
+    unwind: 2
+    string-non-empty: true
+    java-assume-inputs-non-null: true
+-
+  timeout: 60
+  cbmcArguments:
+    classpath: '/tools/cbmc/models-simple-overlay.jar:/tools/cbmc/models.jar:.'
+    max-nondet-array-length: 20
+    unwind: 2
+-
+  timeout: 60
+  cbmcArguments:
+    classpath: '/tools/cbmc/models.jar:.'
+    max-nondet-array-length: 30
+    max-nondet-string-length: 10
+    unwind: 3
+    string-non-empty: true
+    java-assume-inputs-non-null: true
+-
+  timeout: 60
+  cbmcArguments:
+    classpath: '/tools/cbmc/models.jar:.'
+    max-nondet-array-length: 30
+    max-nondet-string-length: 10
+    unwind: 3
+-
+  timeout: 120
+  cbmcArguments:
+    classpath: '/tools/cbmc/models.jar:.'
+    max-nondet-array-length: 30
+    max-nondet-string-length: 10
+    unwind: 4
+    load-containing-class-only: true
+    string-non-empty: true
+    java-assume-inputs-non-null: true
+-
+  timeout: 120
+  cbmcArguments:
+    classpath: '/tools/cbmc/models.jar:.'
+    max-nondet-array-length: 50
+    max-nondet-string-length: 50
+    unwind: 4
+    load-containing-class-only: true
+-
+  timeout: 120
+  cbmcArguments:
+    classpath: '/tools/cbmc/models.jar:.'
+    max-nondet-array-length: 130
+    max-nondet-string-length: 110
+    unwind: 10
+    string-non-empty: true
+    java-assume-inputs-non-null: true
+-
+  timeout: 120
+  cbmcArguments:
+    classpath: '/tools/cbmc/models.jar:.'
+    max-nondet-array-length: 300
+    max-nondet-string-length: 100
+    unwind: 10
+-
+  timeout: 300
+  cbmcArguments:
+    classpath: '/tools/cbmc/models.jar:.'
+    max-nondet-array-length: 300
+    max-nondet-string-length: 100
+    unwind: 15
+-
+  timeout: 400
+  cbmcArguments:
+    classpath: '/tools/cbmc/models.jar:.'
+    max-nondet-array-length: 300
+    max-nondet-string-length: 100
+    unwind: 20
