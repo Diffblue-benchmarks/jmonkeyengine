@@ -7,172 +7,214 @@ cbmcArguments:
 units:
   # Target Coverage: Unknown %
   - target:
-    - dir: jme3-core/build/classes
-      file: java/main/com/jme3/math/FastMath.class
-      sourceDir: jme3-core/src/main
-      sourceFile: java/com/jme3/math/FastMath.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: jme3-core/out/production/classes
-      file: com/jme3/math/FastMath.class
+    - dir: jme3-core/bin/main
+      file: com/jme3/renderer/Camera.class
       sourceDir: jme3-core/src/main/java
-      sourceFile: com/jme3/math/FastMath.java
-  # Target Coverage: Unknown %
-  - target:
+      sourceFile: com/jme3/renderer/Camera.java
+    # Child of Camera.class
+    # Child Coverage: Unknown %
     - dir: jme3-core/build/classes
-      file: java/main/com/jme3/math/MathUtils.class
+      file: java/main/com/jme3/math/Vector3f.class
       sourceDir: jme3-core/src/main
-      sourceFile: java/com/jme3/math/MathUtils.java
-    # Child of MathUtils.class
+      sourceFile: java/com/jme3/math/Vector3f.java
+    # Child of Camera.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/out/production/classes
+      file: com/jme3/math/Vector3f.class
+      sourceDir: jme3-core/src/main/java
+      sourceFile: com/jme3/math/Vector3f.java
+    # Child of Camera.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/build/classes
+      file: java/main/com/jme3/export/Savable.class
+      sourceDir: jme3-core/src/main
+      sourceFile: java/com/jme3/export/Savable.java
+    # Child of Camera.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/out/production/classes
+      file: com/jme3/export/Savable.class
+      sourceDir: jme3-core/src/main/java
+      sourceFile: com/jme3/export/Savable.java
+    # Child of Camera.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/build/classes
+      file: java/main/com/jme3/math/Plane.class
+      sourceDir: jme3-core/src/main
+      sourceFile: java/com/jme3/math/Plane.java
+    # Child of Camera.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/out/production/classes
+      file: com/jme3/math/Plane.class
+      sourceDir: jme3-core/src/main/java
+      sourceFile: com/jme3/math/Plane.java
+    # Child of Camera.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/build/classes
+      file: java/main/com/jme3/export/JmeImporter.class
+      sourceDir: jme3-core/src/main
+      sourceFile: java/com/jme3/export/JmeImporter.java
+    # Child of Camera.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/out/production/classes
+      file: com/jme3/export/JmeImporter.class
+      sourceDir: jme3-core/src/main/java
+      sourceFile: com/jme3/export/JmeImporter.java
+    # Child of Camera.class
     # Child Coverage: Unknown %
     - dir: jme3-core/build/classes
       file: java/main/com/jme3/renderer/Camera.class
       sourceDir: jme3-core/src/main
       sourceFile: java/com/jme3/renderer/Camera.java
-    # Child of MathUtils.class
+    # Child of Camera.class
     # Child Coverage: Unknown %
     - dir: jme3-core/out/production/classes
       file: com/jme3/renderer/Camera.class
       sourceDir: jme3-core/src/main/java
       sourceFile: com/jme3/renderer/Camera.java
-    # Child of MathUtils.class
+    # Child of Camera.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/build/classes
+      file: java/main/com/jme3/export/JmeExporter.class
+      sourceDir: jme3-core/src/main
+      sourceFile: java/com/jme3/export/JmeExporter.java
+    # Child of Camera.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/out/production/classes
+      file: com/jme3/export/JmeExporter.class
+      sourceDir: jme3-core/src/main/java
+      sourceFile: com/jme3/export/JmeExporter.java
+    # Child of Camera.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/build/classes
+      file: java/main/com/jme3/math/Quaternion.class
+      sourceDir: jme3-core/src/main
+      sourceFile: java/com/jme3/math/Quaternion.java
+    # Child of Camera.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/out/production/classes
+      file: com/jme3/math/Quaternion.class
+      sourceDir: jme3-core/src/main/java
+      sourceFile: com/jme3/math/Quaternion.java
+    # Child of Camera.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/build/classes
+      file: java/main/com/jme3/math/Vector4f.class
+      sourceDir: jme3-core/src/main
+      sourceFile: java/com/jme3/math/Vector4f.java
+    # Child of Camera.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/out/production/classes
+      file: com/jme3/math/Vector4f.class
+      sourceDir: jme3-core/src/main/java
+      sourceFile: com/jme3/math/Vector4f.java
+    # Child of Camera.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/build/classes
+      file: java/main/com/jme3/export/OutputCapsule.class
+      sourceDir: jme3-core/src/main
+      sourceFile: java/com/jme3/export/OutputCapsule.java
+    # Child of Camera.class
+    # Child Coverage: Unknown %
+    - dir: jme3-core/out/production/classes
+      file: com/jme3/export/OutputCapsule.class
+      sourceDir: jme3-core/src/main/java
+      sourceFile: com/jme3/export/OutputCapsule.java
+    # Child of Camera.class
     # Child Coverage: Unknown %
     - dir: jme3-core/build/classes
       file: java/main/com/jme3/util/TempVars.class
       sourceDir: jme3-core/src/main
       sourceFile: java/com/jme3/util/TempVars.java
-    # Child of MathUtils.class
+    # Child of Camera.class
     # Child Coverage: Unknown %
     - dir: jme3-core/out/production/classes
       file: com/jme3/util/TempVars.class
       sourceDir: jme3-core/src/main/java
       sourceFile: com/jme3/util/TempVars.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: jme3-core/out/production/classes
-      file: com/jme3/math/MathUtils.class
-      sourceDir: jme3-core/src/main/java
-      sourceFile: com/jme3/math/MathUtils.java
-  # Target Coverage: Unknown %
-  - target:
+    # Child of Camera.class
+    # Child Coverage: Unknown %
     - dir: jme3-core/build/classes
-      file: java/main/com/jme3/math/Eigen3f.class
+      file: java/main/com/jme3/math/Vector2f.class
       sourceDir: jme3-core/src/main
-      sourceFile: java/com/jme3/math/Eigen3f.java
-  # Target Coverage: Unknown %
-  - target:
+      sourceFile: java/com/jme3/math/Vector2f.java
+    # Child of Camera.class
+    # Child Coverage: Unknown %
     - dir: jme3-core/out/production/classes
-      file: com/jme3/math/Eigen3f.class
+      file: com/jme3/math/Vector2f.class
       sourceDir: jme3-core/src/main/java
-      sourceFile: com/jme3/math/Eigen3f.java
-  # Target Coverage: Unknown %
-  - target:
+      sourceFile: com/jme3/math/Vector2f.java
+    # Child of Camera.class
+    # Child Coverage: Unknown %
     - dir: jme3-core/build/classes
-      file: java/main/com/jme3/math/CurveAndSurfaceMath.class
+      file: java/main/com/jme3/export/InputCapsule.class
       sourceDir: jme3-core/src/main
-      sourceFile: java/com/jme3/math/CurveAndSurfaceMath.java
-  # Target Coverage: Unknown %
-  - target:
+      sourceFile: java/com/jme3/export/InputCapsule.java
+    # Child of Camera.class
+    # Child Coverage: Unknown %
     - dir: jme3-core/out/production/classes
-      file: com/jme3/math/CurveAndSurfaceMath.class
+      file: com/jme3/export/InputCapsule.class
       sourceDir: jme3-core/src/main/java
-      sourceFile: com/jme3/math/CurveAndSurfaceMath.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: jme3-core/build/classes
-      file: java/main/com/jme3/texture/plugins/HDRLoader.class
-      sourceDir: jme3-core/src/plugins
-      sourceFile: java/com/jme3/texture/plugins/HDRLoader.java
-    # Child of HDRLoader.class
+      sourceFile: com/jme3/export/InputCapsule.java
+    # Child of Camera.class
     # Child Coverage: Unknown %
     - dir: jme3-core/build/classes
-      file: java/main/com/jme3/asset/AssetInfo.class
+      file: java/main/com/jme3/bounding/BoundingBox.class
       sourceDir: jme3-core/src/main
-      sourceFile: java/com/jme3/asset/AssetInfo.java
-    # Child of HDRLoader.class
+      sourceFile: java/com/jme3/bounding/BoundingBox.java
+    # Child of Camera.class
     # Child Coverage: Unknown %
     - dir: jme3-core/out/production/classes
-      file: com/jme3/asset/AssetInfo.class
+      file: com/jme3/bounding/BoundingBox.class
       sourceDir: jme3-core/src/main/java
-      sourceFile: com/jme3/asset/AssetInfo.java
-    # Child of HDRLoader.class
+      sourceFile: com/jme3/bounding/BoundingBox.java
+    # Child of Camera.class
     # Child Coverage: Unknown %
     - dir: jme3-core/build/classes
-      file: java/main/com/jme3/asset/AssetLoader.class
+      file: java/main/com/jme3/bounding/BoundingVolume.class
       sourceDir: jme3-core/src/main
-      sourceFile: java/com/jme3/asset/AssetLoader.java
-    # Child of HDRLoader.class
+      sourceFile: java/com/jme3/bounding/BoundingVolume.java
+    # Child of Camera.class
     # Child Coverage: Unknown %
     - dir: jme3-core/out/production/classes
-      file: com/jme3/asset/AssetLoader.class
+      file: com/jme3/bounding/BoundingVolume.class
       sourceDir: jme3-core/src/main/java
-      sourceFile: com/jme3/asset/AssetLoader.java
-    # Child of HDRLoader.class
+      sourceFile: com/jme3/bounding/BoundingVolume.java
+    # Child of Camera.class
     # Child Coverage: Unknown %
     - dir: jme3-core/build/classes
-      file: java/main/com/jme3/asset/TextureKey.class
+      file: java/main/com/jme3/math/Matrix4f.class
       sourceDir: jme3-core/src/main
-      sourceFile: java/com/jme3/asset/TextureKey.java
-    # Child of HDRLoader.class
+      sourceFile: java/com/jme3/math/Matrix4f.java
+    # Child of Camera.class
     # Child Coverage: Unknown %
     - dir: jme3-core/out/production/classes
-      file: com/jme3/asset/TextureKey.class
+      file: com/jme3/math/Matrix4f.class
       sourceDir: jme3-core/src/main/java
-      sourceFile: com/jme3/asset/TextureKey.java
-    # Child of HDRLoader.class
+      sourceFile: com/jme3/math/Matrix4f.java
+    # Child of Camera.class
     # Child Coverage: Unknown %
     - dir: jme3-core/build/classes
       file: java/main/com/jme3/math/FastMath.class
       sourceDir: jme3-core/src/main
       sourceFile: java/com/jme3/math/FastMath.java
-    # Child of HDRLoader.class
+    # Child of Camera.class
     # Child Coverage: Unknown %
     - dir: jme3-core/out/production/classes
       file: com/jme3/math/FastMath.class
       sourceDir: jme3-core/src/main/java
       sourceFile: com/jme3/math/FastMath.java
-    # Child of HDRLoader.class
-    # Child Coverage: Unknown %
+  # Target Coverage: Unknown %
+  - target:
     - dir: jme3-core/build/classes
-      file: java/main/com/jme3/texture/Image.class
+      file: java/main/com/jme3/renderer/Camera.class
       sourceDir: jme3-core/src/main
-      sourceFile: java/com/jme3/texture/Image.java
-    # Child of HDRLoader.class
-    # Child Coverage: Unknown %
-    - dir: jme3-core/out/production/classes
-      file: com/jme3/texture/Image.class
-      sourceDir: jme3-core/src/main/java
-      sourceFile: com/jme3/texture/Image.java
-    # Child of HDRLoader.class
-    # Child Coverage: Unknown %
-    - dir: jme3-core/build/classes
-      file: java/main/com/jme3/texture/image/ColorSpace.class
-      sourceDir: jme3-core/src/main
-      sourceFile: java/com/jme3/texture/image/ColorSpace.java
-    # Child of HDRLoader.class
-    # Child Coverage: Unknown %
-    - dir: jme3-core/out/production/classes
-      file: com/jme3/texture/image/ColorSpace.class
-      sourceDir: jme3-core/src/main/java
-      sourceFile: com/jme3/texture/image/ColorSpace.java
-    # Child of HDRLoader.class
-    # Child Coverage: Unknown %
-    - dir: jme3-core/build/classes
-      file: java/main/com/jme3/util/BufferUtils.class
-      sourceDir: jme3-core/src/main
-      sourceFile: java/com/jme3/util/BufferUtils.java
-    # Child of HDRLoader.class
-    # Child Coverage: Unknown %
-    - dir: jme3-core/out/production/classes
-      file: com/jme3/util/BufferUtils.class
-      sourceDir: jme3-core/src/main/java
-      sourceFile: com/jme3/util/BufferUtils.java
+      sourceFile: java/com/jme3/renderer/Camera.java
   # Target Coverage: Unknown %
   - target:
     - dir: jme3-core/out/production/classes
-      file: com/jme3/texture/plugins/HDRLoader.class
-      sourceDir: jme3-core/src/plugins/java
-      sourceFile: com/jme3/texture/plugins/HDRLoader.java
+      file: com/jme3/renderer/Camera.class
+      sourceDir: jme3-core/src/main/java
+      sourceFile: com/jme3/renderer/Camera.java
 phases:
 -
   timeout: 60
